@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  margin: 30px auto;
+  max-width: 400px;
+  min-height: 300px;
+  overflow: auto;
+  border: 1px solid rgb(8, 56, 96);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f7d7b5;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn{
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn:active{
+  transform: scale(1.05);
+}
+
+.btn--block{
+  display: block;
+  width: 100%;
+}
+
+.task{
+  background: #aba6a6;
+  margin: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.task.reminder{
+  border-left: 10px solid rgb(6, 73, 6);
+}
+
+.task__heading--3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p{
+  padding: 0 30px;
+}
+
+.form--add{
+  margin-bottom: 40px;
+}
+
+.form__controller{
+  margin: 20px 0;
+}
+
+.form__label{
+  display: block;
+}
+
+.form__input{
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form__controller--check{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__label--check{
+  flex: 1;
+}
+
+.form__input--check{
+  flex: 2;
+  height: 20px;
+}
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+}

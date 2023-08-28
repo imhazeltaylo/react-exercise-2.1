@@ -1,0 +1,28 @@
+{
+  "task": [
+    {
+      "id": 2,
+      "text": "Play Witcher",
+      "day": "April 4, 2023",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Buy Groceries",
+      "day": "April 5, 2023",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Study for webdev",
+      "day": "April 6, 2023",
+      "reminder": true
+    },
+    {
+      "text": "Sleep",
+      "day": "April 7, 2023",
+      "reminder": true,
+      "id": 5
+    }
+  ]
+}
